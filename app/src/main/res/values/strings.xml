@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mobiltjavalifecycle</string>
+    <!-- Firebase Web client ID for Google Sign-In -->
+    <string name="server_client_id">844924279537-vealf9mtej8tejqjp0qibacfano8f2p0.apps.googleusercontent.com</string>
+</resources>

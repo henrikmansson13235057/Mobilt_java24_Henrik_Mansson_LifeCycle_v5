@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lösenord"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Användarnamn" />
+
+        <EditText
+            android:id="@+id/reg_personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Personnummer" />
+
+        <EditText
+            android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefon" />
+
+        <Button
+            android:id="@+id/reg_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrera" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
